@@ -1,0 +1,94 @@
+// to translate to another language replace the text in the json value (Ex: args: "Text") with the text in the language to be translated 
+// IMPORTANT: DO NOT REMOVE ANY VARIABLES / EMOJI
+{
+ 
+
+ "setlang": {
+ "args": "Modo de uso d/setlang <pt/en/es>",
+ "sucess": "Linguagem setada para {{Lang}}"
+
+ },
+ "calc": {
+   "invalid": "♦️ • Cálculo Invalido",
+   "title": "Calculadora",
+  "field1": "Calculo:",
+  "field2": "Resultado",
+  "footer": "Aprendendo Matemática!" 
+  },
+  "clean": {
+    "permuser": "É necessária a permissão `manageMessages` para executar este comando",
+    "permbot": "Eu não tenho a permissão `manageMessages`",
+    "cleaned1": "Eu apaguei {{msgn}} mensagens\n\nEu não consegui apagar mais devido ao discord",
+    "cleaned2": "Eu apaguei {{msgn}} mensagens",
+    "args": "Diz um numero de mensagens para eu apagar",
+    "number": "Diz um numero válido (NaN)",
+    "limit": "Eu só consigo apagar entre 2 a 200 mensagens"
+  },
+  "botinfo": {
+    "title": "<:danithan:826727176845787136> Informações do bot",
+    "commandused": "<:terminal:830124045701087252> Comandos Usados:",
+    "name": "<:identy:864509103431090217> Nome",
+    "owner": "<:d_:793559827543752735> Dono",
+    "servers": "<:discord:864509377256095764> Servidores",
+    "node": "<:nodejs:864509809595646003> Versão do Node",
+    "commands": "<:pasta:793559362093711440> Comandos",
+    "library": "📚 Biblioteca",
+    "created": "<:relogio:862344276028555264> Criado em",
+    "cpu": "<:cpu:864523602145706024> CPU",
+    "ram": "<:ram1:864523884442550333> RAM"
+  },
+   "ping": {
+    "title": "🏓 Ping Command Help",
+    "help": "<:clock2:862344276028555264> `Represents the reply time in ms`\n<:internet:797178541702774834> `Represents the discord api Ping`\n<:MongoDB:862343156854423552> `Represents the Database Ping (MongoDB)`\n<:lava:862345050667089950> `Represents lavalink ping`"
+  },
+    "lavalink": {
+    "title": "Lavalink Information",
+    "system": "sistema"
+  },
+    "stop": {
+    "player": "Não posso parar de tocar porque não estou a tocar",
+    "voicechannel": "Não estás no canal de voz",
+    "stopped": "Música parada!"
+  },
+  "play": {
+    "queued": "Adicionei {{track}} á lista",
+    "playlist_title": "💿 A carregar playlist...",
+    "playlist_name": "🎵 Nome da playlist:",
+    "playlist_requester": "👤 Pedido por:",
+    "playlist_footer": "💻 | Sistema de Música do Danithan"
+    },
+    "queue": {
+      "player": "Eu não estou a tocar nada",
+      "voicechannel": "Não estás em um canal de voz",
+      "queue": "Não existem mais musicas na queue",
+      "title": "<a:blob_music:864874919208812544> Lista de Músicas"
+    },
+     "dog": {
+      "title": ":dog: Cão aleatório"
+      },
+       "volume": {
+        "player": "Eu não estou a tocar nada",
+        "voicechannel": "Não estás num canal de voz",
+        "number": "Diz um numero valido",
+        "limit": "Apenas posso setar o volume até 120.",
+        "sucess": "Volume setado para {{vol}}"
+      },
+       "prefix": {
+        "args": "Diga um prefixo valido (máximo 3 caracteres)",
+        "sucess": "Prefixo setado para {{prefix}}"
+      },
+      "atm": {
+        "db": "{{member}} não está na minha base de dados",
+        "title": "<:danithan:826727176845787136> Danis de {{member}}",
+        "desc": "{{tag}} têm {{dani}}"
+      },
+       "pay": {
+        "member": "Por favor provida um usuário válido",
+        "sucess": "Pagamento efetuado com sucesso",
+        "confirm": "Você quer realmente pagar {{money}} danis para {{member}}",
+        "args": "Por favor provida uma quantidade válida para pagar"
+      }
+   
+
+
+}

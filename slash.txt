@@ -1,0 +1,28 @@
+{
+  t: 'INTERACTION_CREATE',
+  s: 332,
+  op: 0,
+  d: {
+    version: 1,
+    type: 2,
+    token: 'aW50ZXJhY3Rpb246ODc0MjU3MzAxNDk2ODA3NDg1OmlhVEl4eGQ1VlRKelU0MXpqcjJIdHoxbGJobThyYWxFZkVTdFVDV1phZG5ncEhZU1BvZkpHcEMybmd3Z3lZTnZMSDcySUV1aEg0NVhibjRGR0VxY1ZDeks2MU9ISnZ1eTZmdW5ybHdhd05OZmg2VUVMZGZmQ2k5WVF3UkF3NUtw',
+    member: {
+      user: [Object],
+      roles: [Array],
+      premium_since: null,
+      permissions: '274877906943',
+      pending: false,
+      nick: 'CanasDev | Criador do Danithan',
+      mute: false,
+      joined_at: '2020-12-25T13:18:35.100000+00:00',
+      is_pending: false,
+      deaf: false,
+      avatar: null
+    },
+    id: '874257301496807485',
+    guild_id: '792018456786370590',
+    data: { type: 1, name: 'ping', id: '874255238943612958' },
+    channel_id: '873284241969004554',
+    application_id: '793063574834118696'
+  }
+}
