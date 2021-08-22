@@ -19,8 +19,6 @@ Você pode nos ajudar traduzindo o Danithan acedendo aos respetivos ficheiros de
 
 [Traduza para Inglês](https://github.com/CanasDev/Danithan/tree/master/src/lang/en)
 
-[Traduza Para Espanhol](https://github.com/CanasDev/Danithan/tree/master/src/lang/es)
-
 **Traduza para outra língua:**
 
 [Traduza Comandos](https://github.com/CanasDev/Danithan/tree/master/src/lang/base_commands.txt)
