@@ -61,7 +61,7 @@ module.exports = class playCommand extends Command {
     } else {
       player.queue.add(res.tracks[0]);
 
-      return ctx.msg.channel.createMessage(ctx.t("commands:play.queued", { track: `${res.tracks[0].title}` }));
+       ctx.msg.channel.createMessage(ctx.t("commands:play.queued", { track: `${res.tracks[0].title}` }));
     }
 
     // Entra no canal de voz caso o player ainda não esteja conectado
