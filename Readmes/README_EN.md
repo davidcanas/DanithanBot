@@ -27,11 +27,11 @@ An exclusive badge for reward
 
 
 # 👍 • Credits
-[Luís](https://github.com/MrSannyY) - Danithan´s base
+[Luís](https://github.com/typpe) - Danithan´s base
 
 [5antos](https://github.com/5antos) - Functions `abbreviateNumber, e getMoreCommonChars`
 
-[D4rkb](https://github.com/davidffa) - Function `MsToDate`, Collector, [lavalink](https://www.notion.so/Heroku-Lavalink-35a42e309e84419b9958f77bd9e7359f) configuration, and other small things (in the code is mentioned)
+[D4rkB](https://github.com/davidffa) - Function `MsToDate`, Collector, [lavalink](https://github.com/davidffa/lavalink), and other small things (in the code is mentioned)
 
-_If i forget anything open a pull request please_
+_if I forgot something feel free to open a pull request_
 (Bad English i know)
