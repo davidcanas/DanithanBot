@@ -3,7 +3,7 @@
 <h1>Danithan</h1>
 Src do Danithan - Um bot multifuncional em desenvolvimento ! 
 
-  [ 🇬🇧 English Readme](https://github.com/CanasDev/Danithan/blob/master/Readmes/README_EN.md)
+  [ 🇬🇧 English Readme](https://github.com/Danithan/DanithanBot/blob/master/Readmes/README_EN.md)
 
 
 </div>
@@ -17,23 +17,23 @@ Lembrando que este projeto está Licensiado sobre a Licença **GNU GENERAL PUBLI
 # 😀 Traduzindo 
 Você pode nos ajudar traduzindo o Danithan acedendo aos respetivos ficheiros de tradução e traduzindo os mesmos 
 
-[Traduza para Inglês](https://github.com/CanasDev/Danithan/tree/master/src/lang/en)
+[Traduza para Inglês](https://github.com/Danithan/DanithanBot/tree/master/src/lang/en)
 
 **Traduza para outra língua:**
 
-[Traduza Comandos](https://github.com/CanasDev/Danithan/tree/master/src/lang/base_commands.txt)
-[Traduza Eventos](https://github.com/CanasDev/Danithan/tree/master/src/lang/base_events.txt)
+[Traduza Comandos](https://github.com/Danithan/DanithanBot/tree/master/src/lang/base_commands.txt)
+[Traduza Eventos](https://github.com/Danithan/DanithanBot/tree/master/src/lang/base_events.txt)
 
 # ❓ • Como Contribuir?
 Você pode contribuir ajudando a melhorar o Danithan
-Contrinuindo pode ganhar uma badge exclusiva !
+Contribuindo pode ganhar uma badge exclusiva !
 
 
 # 👍 • Créditos 
-[Luís](https://github.com/MrSannyY) - Base do Danithan
+[Luís](https://github.com/typpe) - Base do Danithan
 
 [5antos](https://github.com/5antos) - Funções `abbreviateNumber, e getMoreCommonChars`
 
-[D4rkb](https://github.com/davidffa) - Função `MsToDate`, Collector, configuração do [lavalink](https://www.notion.so/Heroku-Lavalink-35a42e309e84419b9958f77bd9e7359f), e outras pequenas coisas que foram referidas no código
+[D4rkB](https://github.com/davidffa) - Função `MsToDate`, Collector, [lavalink](https://github.com/davidffa/lavalink), e outras pequenas coisas que foram referidas no código
 
 _Caso falte referir alguma coisa faça um pull request_
