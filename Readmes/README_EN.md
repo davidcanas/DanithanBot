@@ -12,14 +12,14 @@ This project have **GNU GENERAL PUBLIC LICENSE V3** license.
 # 😀 Translating
 You can translate danithan editing the json translation files:
 
-[Translate to English](https://github.com/CanasDev/Danithan/tree/master/src/lang/en)
+[Translate to English](https://github.com/Danithan/DanithanBot/tree/master/src/lang/en)
 
-[Translate to Spanish](https://github.com/CanasDev/Danithan/tree/master/src/lang/es)
+[Translate to Spanish](https://github.com/Danithan/DanithanBot/tree/master/src/lang/es)
 
 **Translate other language:**
 
-[Translate Commands](https://github.com/CanasDev/Danithan/tree/master/src/lang/base_commands.txt)
-[Translate Events](https://github.com/CanasDev/Danithan/tree/master/src/lang/base_events.txt)
+[Translate Commands](https://github.com/Danithan/DanithanBot/tree/master/src/lang/base_commands.txt)
+[Translate Events](https://github.com/Danithan/DanithanBot/tree/master/src/lang/base_events.txt)
 
 # ❓ • How to contribute?
 You can contribute helping danithan

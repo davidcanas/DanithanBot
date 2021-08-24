@@ -3,7 +3,7 @@
 <h1>Danithan</h1>
 Src do Danithan - Um bot multifuncional em desenvolvimento ! 
 
-  [ 🇬🇧 English Readme](https://github.com/CanasDev/Danithan/blob/master/Readmes/README_EN.md)
+  [ 🇬🇧 English Readme](https://github.com/Danithan/DanithanBot/blob/master/Readmes/README_EN.md)
 
 
 </div>
@@ -17,12 +17,12 @@ Lembrando que este projeto está Licensiado sobre a Licença **GNU GENERAL PUBLI
 # 😀 Traduzindo 
 Você pode nos ajudar traduzindo o Danithan acedendo aos respetivos ficheiros de tradução e traduzindo os mesmos 
 
-[Traduza para Inglês](https://github.com/CanasDev/Danithan/tree/master/src/lang/en)
+[Traduza para Inglês](https://github.com/Danithan/DanithanBot/tree/master/src/lang/en)
 
 **Traduza para outra língua:**
 
-[Traduza Comandos](https://github.com/CanasDev/Danithan/tree/master/src/lang/base_commands.txt)
-[Traduza Eventos](https://github.com/CanasDev/Danithan/tree/master/src/lang/base_events.txt)
+[Traduza Comandos](https://github.com/Danithan/DanithanBot/tree/master/src/lang/base_commands.txt)
+[Traduza Eventos](https://github.com/Danithan/DanithanBot/tree/master/src/lang/base_events.txt)
 
 # ❓ • Como Contribuir?
 Você pode contribuir ajudando a melhorar o Danithan
