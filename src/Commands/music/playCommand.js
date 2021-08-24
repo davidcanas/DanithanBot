@@ -35,18 +35,20 @@ module.exports = class playCommand extends Command {
       guild: ctx.msg.channel.guild.id,
       voiceChannel: ctx.msg.member.voiceState.channelID,
       textChannel: ctx.msg.channel.id,
+      selfDeafen: true
     });
+
+    if (res.loadType === 'NO_MATCHES') {
+      return ctx.msg.channel.createMessage("Não encontrei nenhum resultado!");
+    }
+
     //Aqui verificamos se é uma playlist e se é carregamos a mesma
     if (res.loadType === 'PLAYLIST_LOADED') {
       const playlist = res.playlist;
-      player.connect()
-      for (let poh of res.tracks)
+
+      for (const poh of res.tracks)
         player.queue.add(poh);
       /* ^ Thank you D4rkB ^ */
-
-      // Verifica se o bot está tocando caso não esteja ele toca
-      if (!player.playing)
-        player.play();
 
       const embed = new EthanEmbed()
         .setColor('RANDOM')
@@ -55,18 +57,16 @@ module.exports = class playCommand extends Command {
         .addField(ctx.t("commands:play.playlist_requester"), ctx.msg.author.username + "#" + ctx.msg.author.discriminator)
         .setFooter(ctx.t("commands:play.playlist_footer"));
 
-
-
       ctx.msg.channel.createMessage(embed);
     } else {
-      // Entra no canal de voz e adiciona a musica pedida a lista 
-      player.connect();
       player.queue.add(res.tracks[0]);
-
-      // Verifica se o bot está tocando caso não esteja ele toca
-      if (!player.playing) player.play()
 
       return ctx.msg.channel.createMessage(ctx.t("commands:play.queued", { track: `${res.tracks[0].title}` }));
     }
+
+    // Entra no canal de voz caso o player ainda não esteja conectado
+    if (player.state !== "CONNECTED") player.connect();
+    // Verifica se o bot está tocando caso não esteja ele toca
+    if (!player.playing) player.play();
   }
 }
