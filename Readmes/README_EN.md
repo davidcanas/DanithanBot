@@ -14,8 +14,6 @@ You can translate danithan editing the json translation files:
 
 [Translate to English](https://github.com/Danithan/DanithanBot/tree/master/src/lang/en)
 
-[Translate to Spanish](https://github.com/Danithan/DanithanBot/tree/master/src/lang/es)
-
 **Translate other language:**
 
 [Translate Commands](https://github.com/Danithan/DanithanBot/tree/master/src/lang/base_commands.txt)
