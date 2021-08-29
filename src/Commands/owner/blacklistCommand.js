@@ -12,7 +12,7 @@ module.exports = class blacklistCommand extends Command {
         })
     }
     async execute(ctx) {
-        if (ctx.msg.author.id !== '791347446298312724') {
+        if (ctx.msg.author.id !== '791347446298312724' && ctx.msg.author.id !== '852650555254767676') {
             return ctx.msg.channel.createMessage('Apenas meu criador');
         }
         let tipo = ctx.args[0]
