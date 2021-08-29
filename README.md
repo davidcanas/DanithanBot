@@ -1,6 +1,6 @@
 <div align="center">
 <img src="https://developer.danithan.tk/img/danithan.png" width=100>
-<h1>Danithan</h1>
+<h1>Danithan [DEPRECATED]</h1>
 Src do Danithan - Um bot multifuncional em desenvolvimento ! 
 
   [ 🇬🇧 English Readme](https://github.com/Danithan/DanithanBot/blob/master/Readmes/README_EN.md)
