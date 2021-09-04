@@ -22,7 +22,7 @@ async execute(ctx) {
    
   try {
 
-        if (ctx.msg.author.id !== '791347446298312724' && ctx.msg.author.id !== '718078381199065150' && ctx.msg.author.id !== '852650555254767676' && ctx.msg.author.id !== "733963304610824252") {
+        if (ctx.msg.author.id !== '791347446298312724' && ctx.msg.author.id !== '718078381199065150' && ctx.msg.author.id !== '852650555254767676' && ctx.msg.author.id !== "334054158879686657") {
             return ctx.msg.channel.createMessage('Apenas meu criador');
         }
         const texto = ctx.args.join(' ')
